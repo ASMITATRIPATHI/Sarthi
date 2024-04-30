@@ -8,7 +8,4 @@ abstract class Env {
 
   @EnviedField()
   static String SUPABASE_ANON_KEY = _Env.SUPABASE_ANON_KEY;
-
-  @EnviedField()
-  static String SUPABASE_SERVICE_ROLE_KEY = _Env.SUPABASE_SERVICE_ROLE_KEY;
 }
